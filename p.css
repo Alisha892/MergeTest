@@ -1,0 +1,44 @@
+
+nav{
+    margin-top:10px;/*aada space above the nav bar*/
+}
+nav a{
+    color:white;/*makes text color white*/
+    text-decoration:none ;/*removes underline from links*/
+    margin:0 10px;
+    padding: 5px 10px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: white;
+    color:black;
+}
+section{
+    padding: 20px;
+    margin:20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+.qualification{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 225px));
+    gap:20px;
+}
+
+.card{
+    background-color:#292929;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card a:hover
+{
+    display: flex;
+}
+footer{
+    text-align: center;
+    padding:10px;
+    background-color: #1f1f1f;
+    margin-top: 20px;
+}

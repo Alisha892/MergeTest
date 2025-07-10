@@ -1,0 +1,35 @@
+html
+{
+    scroll-behavior: smooth;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+*
+{
+    margin:0 auto ;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+	width: 60%;
+	background-color:black;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+.container2{
+	width: 50%;
+	background-color: white;
+	margin: auto;
+	padding: 10px;
+}
+
+.bgcolor{
+	background-color: black;
+}
+.menu{
+	background-color: black;
+	height: 50px;
+}

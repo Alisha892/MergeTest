@@ -1,0 +1,138 @@
+*
+{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:black;
+    color:white;
+    overflow: hidden;
+   
+   
+}
+
+body video.bg-vid
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1; /*Esley specify garcha which element is above which bhanera */
+    width:100%;
+    height: auto;
+
+    
+}
+
+body .main
+{
+    background-color: transparent;
+    width:90%;
+    
+    
+    position:relative;  /*Yesley main container position change gardaina
+                        But navigation absolute bhayera this value must be 
+                        either relative, fixed or absolute: we do not use
+                        absolute cause hamro div feri body ko left ma jancha ani
+                        margin padding bigrincha */
+    
+}
+
+ body .main .navigationLinks
+{
+    background-color: transparent;
+    opacity: 100%;
+    height: 50px;
+    width: 30%%;
+    position: absolute;
+    left: 0;
+    top:0;
+    margin-top: 110px;
+}
+
+a:link, a:visited, a:active, a:focus 
+{
+    text-decoration: none;
+    color: white;
+    font-family: corporateA;
+}
+a:hover
+{
+    color:lightgrey;
+}
+
+
+body .main img.setLogo
+{
+    position: relative;
+    margin: auto;
+
+    /*Logo Center ma lyauna. Please learn to center
+    a div before learning this. Learn different types of
+    Positions*/
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.Cards
+{
+    margin-right: 40px;
+    background-color: white;
+    transition: all 0.3s;
+}
+#Cards
+{
+    transition: all 0.3s;
+}
+.Cards:hover
+{
+     transform: scale(1.1);
+}
+#Cards:hover
+{
+
+     transform: scale(1.1);
+}
+
+
+.Buttons
+{
+    transition: all 0.3s;
+
+}
+.Buttons:hover
+{
+    transform: scale(1.10);
+}
+
+.rm
+{
+    transition: all 0.3s;
+
+}
+.rm:hover
+{
+    transform: scale(1.05);
+}
+
+#Arrow
+{
+    position: absolute;
+    top:700px;
+    right:0;
+    transition: all 0.3s;
+    border: none;
+    background: none;
+}
+#Arrow:hover
+{
+transform: scale(1.1);
+}
+
+
+
+
+

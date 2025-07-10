@@ -1,0 +1,49 @@
+html
+{
+    scroll-behavior: smooth;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+*
+{
+    margin:2px  ;
+    padding:2px auto;
+    box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color:white;
+}
+header{
+  background-color: black;
+  color: white;/*makes text color white*/
+  padding:20px 40px;/*makes space in header**/
+ 
+  
+}
+.nav-links{
+  list-style: none;/*removes bullet points*/
+  display: flex;/*aligns items horizontally*/
+  gap:15px;/* adds space between links*/
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover{
+  color:#ff9800;
+}
+footer{
+  margin-top: auto;
+}
+.Buttons
+{
+    transition: all 0.3s;
+
+}
+.Buttons:hover
+{
+    transform: scale(1.10);
+}
